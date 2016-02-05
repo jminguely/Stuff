@@ -1,0 +1,148 @@
+// Use Compass
+@import "compass";
+
+// Reset using Normalize
+@import "reset";
+
+
+body, html{
+  background-color: #646363;
+  color:white;
+  width:100%;
+  height:100%;
+  overflow-x: hidden;
+}
+
+#content{
+  position:relative;
+  top:50%;
+  left:50%;
+  width:75%;
+
+  -webkit-transform:translate(-50%, -50%);
+  transform:translate(-50%, -50%);
+  -moz-transform:translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+  -o-transform:translate(-50%, -50%);
+
+  h1{
+    img, svg{
+      width:100%;
+      height:auto;
+    }
+  }
+}
+
+#logo{
+  path{
+    fill:white;
+    transition:opacity 1.5s ease-in;
+
+
+    opacity:0.5;
+    &.active{
+      transition:opacity 0.1s ease-in;
+      opacity:1;
+
+    }
+  }
+}
+
+footer{
+  a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    position:absolute;
+    bottom:10px;
+    &.right{
+      right:20px;
+    }
+    &.left{
+      left:20px;
+    }
+    img{
+      display:block;
+      width:100%;
+      height:100%;
+
+    }
+  }
+}
+
+#social{
+  ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:block;
+    text-align:center;
+    margin:20px 0 0 0;
+    li{
+      list-style:none;
+      margin:0;
+      padding:0;
+      display:inline-block;
+      margin:10px 10px 0 0;
+      a{
+        display:block;
+        &:hover{
+          svg{
+            path{
+              fill:white;
+            }
+          }
+        }
+
+        img{
+          display:block;
+          margin:0;
+          padding:0;
+
+
+        }
+        svg{
+          path{
+            fill:darken(white, 20%);
+
+            transition:fill 0.2s ease-out;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 300px) {
+  #content{
+    position:relative;
+    top:0;
+    left:0;
+    margin:auto;
+    width:90%;
+
+    -webkit-transform:none;
+    transform:none;
+    -moz-transform:none;
+    -ms-transform:none;
+    -o-transform:none;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  html, body{
+    overflow-y:scroll;
+    padding-bottom:50px;
+  }
+  #social{
+    ul{
+      margin:0;
+      li{
+        // display:block;
+      }
+    }
+  }
+}

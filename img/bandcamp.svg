@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>bandcamp</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-730.000000, -538.000000)" fill="#FFFFFF">
+            <g id="bandcamp" sketch:type="MSLayerGroup" transform="translate(730.000000, 538.000000)">
+                <path d="M0,0 L40,0 L40,40 L0,40 L0,0 Z M14.085,14.921 C12.644,14.947 11.416,15.539 10.518,16.837 L10.469,16.837 L10.469,10.67 L8.389,10.67 L8.389,27.635 L10.351,27.635 L10.351,26.101 L10.398,26.101 C10.824,26.784 11.699,27.99 13.803,27.99 C18.008,27.99 19.235,24.044 19.235,21.088 C19.235,17.617 17.369,14.921 14.085,14.921 Z M13.754,26.195 C12.431,26.195 10.375,25.319 10.375,22.033 C10.375,20.026 10.705,16.79 13.707,16.79 C16.922,16.79 17.087,19.838 17.087,21.423 C17.087,24.138 16.023,26.195 13.754,26.195 L13.754,26.195 Z M26.191,16.79 C27.94,16.79 28.861,17.782 29.121,19.435 L31.129,19.435 C30.964,17.287 29.735,14.921 26.498,14.921 C22.411,14.921 20.568,17.97 20.568,21.8 C20.568,25.368 22.623,27.99 26.099,27.99 C29.711,27.99 30.918,25.226 31.129,23.265 L29.121,23.265 C28.768,25.154 27.563,26.195 26.168,26.195 C23.31,26.195 22.789,23.572 22.789,21.444 C22.791,19.248 23.617,16.79 26.191,16.79" id="Fill-23" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
